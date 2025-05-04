@@ -40,6 +40,10 @@ form i {
     font-size: 30px;
 }
 
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+}
+
 .img-text {
    
     font-size: 20px;

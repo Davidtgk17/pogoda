@@ -7,6 +7,7 @@ let gradus = document.querySelector('.gradus')
 const city = document.querySelector('.town')
 let humidity1 = document.querySelector('.Humidity')
 let wind1 = document.querySelector('.wind')
+const space = document.querySelector('form i')
 
 async function mainPrognoz (e) {
     e.preventDefault()
@@ -27,7 +28,7 @@ async function mainPrognoz (e) {
     wind1.textContent = weather.wind + ' km/h'
 }
 
-
+space.onclick = mainPrognoz
 form.addEventListener('submit',mainPrognoz)
 
 async function gpsTown (town) {
