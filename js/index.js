@@ -28,7 +28,7 @@ async function mainPrognoz (e) {
     wind1.textContent = weather.wind + ' km/h'
 }
 
-space.onclick = mainPrognoz
+space.ontouchstart  = mainPrognoz
 form.addEventListener('submit',mainPrognoz)
 
 async function gpsTown (town) {
