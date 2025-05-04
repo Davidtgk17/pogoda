@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="prognoz">
+        <div class="input">
+            <form action="">
+                <input type="text" placeholder="Введите город">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+        <div class="photo">
+            <img src="img/image-removebg-preview.png" alt="">
+        </div>
+        <div class="gradus">22°С</div>
+        <div class="town">New york</div>
+        <div class="wrapper">
+            <div class="prognoz__wrapper">
+                <div class="img">
+                    <i class="fa-solid fa-droplet" style="color: #ffffff;"></i>
+                </div>
+                <div class="img-text">
+                    <p class="Humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="prognoz__wrapper"> 
+                <div class="img">
+                    <i class="fa-solid fa-wind" style="color: #ffffff;"></i>
+                </div>
+                <div class="img-text">
+                    <p class="wind">10 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

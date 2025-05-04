@@ -1,0 +1,81 @@
+.prognoz {
+    background: -webkit-linear-gradient(0deg, rgb(152, 207, 195) 13%, rgb(86, 181, 184));
+    background: -moz-linear-gradient(0deg, rgb(152, 207, 195) 13%, rgb(86, 181, 184));
+    background: linear-gradient(0deg, rgb(152, 207, 195) 13%, rgb(86, 181, 184));
+    width: 320px;
+    margin: 100px auto;
+    border-radius: 5px;
+
+}
+
+
+
+.input {
+    text-align: center;
+}
+
+.input input{
+    width: 80%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+
+form i {
+    position: relative;
+    right: 40px;
+    color: rgb(53, 170, 170);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper i {
+    font-size: 30px;
+}
+
+.img-text {
+   
+    font-size: 20px;
+    height: 100px;
+}
+.img-text p {
+    font-weight: 400;
+    color: white;
+    height: 10px;
+}
+
+.prognoz__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.gradus {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.town {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
